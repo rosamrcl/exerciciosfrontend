@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icone.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./floremel.css">
+    <title>Flor & Mel</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg #c3fba3">
+        <div class="container">
+          <a class="navbar-brand" href="">
+            <img class="logo" src="./logo.png" alt="">
+          </a> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Flor & Mel</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="floremelloja.html">Loja</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Veja Mais
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="contato.html">Contato</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Pesquise</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+</header>
+<main> 
+  <section id="banner">
+   <div id="carouselExampleDark" class="carousel carousel-dark slide">
+     <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./banner.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block texto-banner">
+          <p class="banner">Flor & Mel</p>
+          <p>Nos seus momentos mais especiais.</p>
+        </div>
+      </div>   
+    
+  </div>  
+  </section>
+ 
+    <section class="promocao">
+      <h1 class="text-center">Promoções</h1>
+      <div class="d-flex justify-content-center mt-3">
+          <div class="row">
+              <div class="col">
+                  <div class="card" style="width: 18rem;background-color: #c3fba3;">
+                      <img src="./assinatura.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Assinatura</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-warning">Saiba mais</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col">
+                  <div class="card" style="width: 18rem;background-color: #c3fba3;">
+                      <img src="./mae.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Dia das mães</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-warning">Saiba mais</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col">
+                  <div class="card" style="width: 18rem;background-color: #c3fba3;">
+                      <img src="./finados.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Finados</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-warning">Saiba mais</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;background-color: #c3fba3;">
+                    <img src="./na.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Dia dos namorados</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-warning">Saiba mais</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </div>
+  </section>
+      
+ 
+    
+     
+    </section>
+    <section id="produtos">
+        <div class="container">
+        <h1>Nossos produtos</h1>
+        <div class="d-flex justify-content-center mt-3">
+          <div class="row">
+              <div class="col">
+                  <div class="card" style="width: 18rem;background-color: #c3fba3;">
+                      <img src="./rosa.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Rosas</h5>
+                        <p class="card-text">Queixo-me às rosas
+                          Que bobagem as rosas não falam
+                          Simplesmente as rosas exalam
+                          O perfume que roubam de ti, ai.</p>
+                          <p><R1>R$200,00</R1></p>
+                        <a href="floremelloja.html" class="btn btn-warning">Adicionar ao carrinho</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col">
+                  <div class="card" style="width: 18rem; background-color: #c3fba3;">
+                      <img src="./orquidea.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Orquidea</h5>
+                        <p class="card-text">Lembra aquela Phalaenopsis Que você me deu Me deixou com Sophronitis Por um beijo seu.</p>
+                        <p><R1>R$150,00</R1></p>
+                        <a href="floremelloja.html" class="btn btn-warning">Adicionar ao carrinho</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col">
+                  <div class="card" style="width: 18rem; background-color: #c3fba3;">
+                      <img src=".//girassol.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Girassois</h5>
+                        <p class="card-text">Eu quero dar mais valor até o calor do sol
+                          Que eu esteja preparado pra quem me conduz
+                          Que eu seja todo dia como um girassol
+                          De costas pro escuro e de frente pra luz
+                      <p><R1>R$50,00</R1></p>  
+                        <a href="floremelloja.html" class="btn btn-warning">Adicionar ao carrinho</a>
+                      </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+      <div class="d-flex justify-content-center mt-3">
+        <div class="row">
+          <div class="d-grid gap-2">
+            <button class="btn btn-warning" type="button">
+             <a href="floremelloja.html" class="btn btn-warning">Veja mais produtos</a>
+            </button>
+          </div>
+          
+            
+    </section>
+    <section id="depo">
+      <h1 class="text-center">Depoimentos</h1>
+      <div class="container">
+
+          <div class="card" >
+              <div class="card-body bg-cartao">
+                 <img src="./lana.jpg" class="card-img-left"  alt="exemplo com cartão"  >
+                  <h5 class="card-title">Lana Del Rey</h5>
+                  <h6 class="card-subtitle mb-4 text-muted">Cantora, atriz</h6>
+                  <p class="card-text"><p>Will you still love me when I'm no longer young and beautiful?
+                    Will you still love me when I got nothing but my aching soul?
+                    I know you will, I know you will, I know that you will
+                    Will you still love me when I'm no longer beautiful?</p>
+                 <button type="button" class="btn btn-outline-secondary btn-sm">Saiba mais</button>
+              </div>
+          </div>
+
+          <div class="card" >
+              <div class="card-body bg-cartao">
+                 <img src="./britney.jpg" class="card-img-left"  alt="exemplo com cartão"  >
+                  <h5 class="card-title">Britney Spears</h5>
+                  <h6 class="card-subtitle mb-4 text-muted">Cantora, atriz, produtora, dançarina</h6>
+                  <p class="card-text">My loneliness is killing me (and I)
+                    I must confess, I still believe (still believe)
+                    When I'm not with you, I lose my mind
+                    Give me a sign
+                    Hit me, baby, one more time</p>
+                 <button type="button" class="btn btn-outline-secondary btn-sm">Saiba Mais</button>
+              </div>
+          </div>
+    </div>
+</section>  
+</body>
+</html>
+</main>
+<footer>
+    <div class="container">
+        <p>Todos os direitos reservados &copy; 2024</p>
+            <div id="midias-sociais">
+                <a href="www.instagram.com" target="_blank">
+                    <img class="icons" src="./instagram.png" alt="Instagram">
+                       
+                </a>
+                <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank">
+                <img class="icons" src="./whatsapp.png"  alt="Fale conosco pelo Whats App">
+                </a>
+            </div>
+        </div>
+
+</footer>
+</html>

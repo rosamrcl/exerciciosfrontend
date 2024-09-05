@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+#logo {
+    width: 60px;
+    float: left;
+}
+
+/*----------------------menu------------*/
+
+#menu {
+    float: right;
+    margin: 10px;
+}
+#menu ul li {
+    display: inline;
+    margin-right: 20 pix;
+}
+#menu ul li a {
+    color: #554023;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+#menu ul li a :hover {
+    border-bottom: solid #554023 1px ;
+    transition: all 0.3s ease;
+}
+
+
+/*----------------------header------------*/
+header{
+    background-color: #FEF9E7;
+    width: 100%;
+    min-height: 40px;
+
+}
+header, section , footer {
+    padding: 30px 0;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/*----------------------footer------------*/
+footer {
+    background-color: #e8a200;
+    width: 100%;
+    min-width: 40px;
+    clear: both;
+}
+footer p {
+    float: left;
+    color: #2E210F;
+}
+#midias-sociais {
+    float: right;
+}
+.icons {
+    width: 20px;
+}
+#midias-sociais img:hover {
+    transform: rotate(15deg);
+    transition: all 0.3s;
+}
+#midias-sociais a {
+    text-decoration: none;
+}
+
+/*----------------------banner------------*/
+#banner {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#banner h1 {
+    text-align: left;
+    width: 250px;
+    margin-top: 150px;
+}
+
+/*----------------------texto------------*/
+h1{
+    text-align: center;
+    color: #554023;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+/*----------------------depoimentos------------*/
+.depoimento {
+    width: 600px;
+    height: 155px;
+    float: left;
+    box-shadow: 6px 6px 6px -5px #ccc;
+    padding: 20px 0;
+    margin: 20px;
+}
+.depoimento p, .depoimento img {
+    float: left;
+}
+.depoimento p {
+    width: 370px;
+    margin-right: 20px;
+}
+.testemunho {
+    width: 90px;
+}
+.depoimento p span {
+    font-weight: bold;
+}
+
+/*----------------------dicas------------*/
+#dicas {
+    clear: both;
+}
+.dica {
+    float: left;
+}
+#boxe-dicas-texto {
+    float: left;
+    margin-left: 20px;
+    margin-top: 60px;
+    width: 500px;
+}
+#boxe-dicas-texto ul {
+    list-style-position: inside;
+}
+#boxe-dicas-texto h3 {
+    color: #2e210f;
+    margin-top: 30px;
+}
+#boxe-dicas-texto li {
+    color: #2e210f;
+    line-height: 2em;
+}
+
+/*----------------------newsletter------------*/
+#newsletter {
+    clear: both;
+    width: 100%;
+    background-color: #2e210f;
+    height: 200px;
+}
+#newsletter h1{
+    color: #fff;
+}
+#newsletter form {
+    width: 720px;
+    margin: auto;
+    background-color: #ccc;
+}
+#campo {
+    width: 500px;
+    padding: 12px;
+    float: left;
+}
+#campo :focus {
+    outline: none;
+    border: 1px solid #e8a200;
+}
+#botao {
+    background-color: #e8a200;
+    padding: 11px 30px;
+    color: #fff;
+    border: solid 2px #e8a200;
+    font-weight: bold;
+    float: left;
+    font-size: 14px;
+}
+#botao:hover {
+    background-color: #2e210f;
+    border: solid 2px #e8a200;
+    transition: all linear 0.5s;
+}
+
+/*----------------------Saiba mais------------*/
+#saiba-mais{
+    background-color: #E8A200;
+    color: #2E210F;
+    min-height: 100px ;
+    padding: 100px 0;
+}
+#saiba-mais p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+#saiba-mais a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2E210F ;
+    text-decoration: none;
+    text-align: center;
+    padding:10px 30px;
+    border: solid 2px #2E210F ;
+    border-radius: 30px;
+    margin: 30px auto 0 auto;
+    width: 90px;
+    display: block;
+}
+#saiba-mais a:hover{
+    color: #E8A200 ;
+    background-color: #2E210F;
+    transition: all linear 0.3s;
+}
+
+    /*----------------------loja------------*/
+    .item-produto {
+        width: 295px;
+        float: left;
+        background-color: #554023;
+        min-width: 350px;
+        margin: 10px;
+        border: solid 2px #554023;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    .item-produto img {
+        width: 100%;
+    }
+    .item-produto p, h3 {
+        margin: 10px;
+    }
+    .item-produto h3 {
+        color: #e8a200;
+    }
+    .item-produto p {
+        color: #fff;
+        font-size: 16px;
+    }
+    .preco{
+        font-weight: bold;
+    }
+    /*----------------------serviços------------*/
+
+    #servico {
+        clear: both;
+    }
+    .box-servico{
+        width: 600px;
+        margin: 20px;
+        float: left;        
+    
+    }
+    .item-servico{
+        width: 250px ;
+        float: left;
+        margin: 20px;
+        color: #2E210F;
+    }
+    .item-servico p{
+        font-size: 14px;
+        margin-top: 10px;
+        }
+        
+    /*----------------------contato------------*/
+
+    #contato p {
+        width: 800px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 30px;
+
+    }
+    #contato form {
+        width: 550px;
+        margin: auto;
+    }
+    #contato form label, form input {
+        display: block;
+        color: #2e210f;
+    }
+    #contato form input, form textarea {
+        width: 90%;
+        padding: 5px;
+    }
+    #contato form label {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+#contato form #enviar{
+    width: 150px;
+    padding: 6px 30px;
+    font-weight: bold;
+    color: #554023;
+    font-size: 18px;
+    background-color: #e8a200;
+    border: solid 2px #2e210f;
+    border-radius: 30px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+#contato form #enviar :hover {
+    color: #e8a200;
+    background-color: #554023;
+    transition: all linear 0.3s;
+}
+
+/*----------------------sobre------------*/
+#sobre #texto {
+    width: 500px;
+    float: left;
+    margin-right: 20px;
+}
+#sobre {
+    margin-top: 10px;
+    padding: 0;
+}
+.marron {
+color: #554023;
+}
+.amarelo {
+    color: #e8a200;
+}
+#sobre p {
+    margin-top: 10px;
+}
+#video {
+    float: left;
+}

@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.navegacao ul {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+navegacao li {
+    margin-right: 15px;
+    list-style-type: none;
+}
